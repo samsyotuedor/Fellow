@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="https://kit.fontawesome.com/46f43ab1c3.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdn.sinch.com/latest/sinch.min.js"></script>
+    <style>
+      body {
+        /* font-family: 'Nunito Sans' !important; */
+        box-sizing: border-box;
+        margin: 0;
+      }
+  
+      .select2-selection--single {
+        padding: 0px 10px !important;
+        height: 40px !important;
+        margin-top: 4px !important;
+        display: flex !important;
+        align-items: center !important;
+        border: 1px solid #b2c2cd !important;
+        border-radius: 4px;
+      }
+  
+      .select2-container .select2-choice {
+        padding: 5px 4px;
+        height: 40px;
+        font-size: 1.2em;
+        appearance: none;
+        border: 1px solid #b2c2cd;
+      }
+  
+      .select2-selection__arrow {
+        position: absolute;
+        top: 10px !important;
+      }
+  
+  
+      #select2-code-container {
+        padding: 0;
+      }
+  
+      #eventCategorySelectElem .select2-selection {
+        border: none !important;
+        padding: 40px 0;
+        /* border: 1px solid #b2c2cd !important; */
+        outline: none;
+        display: flex;
+        justify-content: center;
+      }
+  
+      .select2-eventcategory-0n-results li.select2-results__option:last-child {
+        color: red !important;
+      }
+  
+      #eventCategorySelectElem option:last-child {
+        color: red !important;
+      }
+  
+      #eventCategorySelectElem .select2-selection__arrow {
+        display: none;
+      }
+  
+      table.uiGrid._51mz._5h0i._88va._5f0n {
+        background: red !important;
+      }
+  
+      ._5h0i._88va {
+        border: 2px solid red !important;
+      }
+  
+      .fb_iframe_widget iframe {
+        opacity: 0;
+      }
+  
+      .fb_iframe_widget {
+        background-image: url(another-button.png);
+        background-repeat: no-repeat;
+      }
+  
+      .p-button {
+        background: #136acd !important;
+        font-weight: 600 !important;
+      }
+  
+      .p-splitbutton-menubutton {
+        /* background: red !important; */
+        border-radius: 0 22px 22px 0 !important;
+      }
+  
+      .p-splitbutton-defaultbutton {
+        border-radius: 22px 0 0 22px !important;
+      }
+  
+      #successDialog .p-dialog .p-dialog-header {
+        display: none;
+      }
+  
+      #successDialog .p-dialog .p-dialog-content {
+        padding: 0;
+        margin: 0;
+        background: #797979;
+      }
+  
+      .p-dialog .p-component {
+        border: 1px solid #EBEFF4 !important;
+        border-radius: 20px !important;
+      }
+  
+      #currencySelect .p-dropdown-items	 {
+        max-width: 300px !important
+      }
+  
+      #post-icon .p-dropdown {
+        border: none !important;
+        outline: transparent;
+      }
+  
+      .swal-button--confirm {
+        background-color: #136acd !important;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+     <!-- <script src="https://unpkg.com/vue-paystack/dist/paystack.min.js"></script> -->
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"></script>
+  </body>
+</html>
