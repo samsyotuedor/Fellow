@@ -6,7 +6,7 @@
                     <div class=""> <img src="../../assets/apply.jpg" alt=""> </div>
                 </div>
                 <div class="col-md-6 border ">
-                    <div class="col-md-12 font-weight-bold "> Gender-Inclusive Practice and LGBTIQ </div>
+                    <div class="col-md-12 font-weight-bold  "> Gender-Inclusive Practice and LGBTIQ </div>
                     <div class="col-md-12"> Fellowship</div>
                     <div class="col-md-12">
                         <div>Application Open</div>
