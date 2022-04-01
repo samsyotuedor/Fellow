@@ -26,6 +26,39 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid bg-white">
+            <div class="row mb-3 ">
+                <div class="col-md-12 mt-3 d-flex justify-content-start">
+                    <div class=" col-md-12 text-center display-4  font-weight-bolder">What Makes a Fellow</div>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center py-3 ">
+                    <div class=" col-md-5  font-weight-600">Our fellows are extraordinary leaders
+                        who are committed to embracing the difficult journey of social change. 
+                        Here’s what we want from you-and what you can expect from your fellowship cohort.
+                    </div>
+                </div>
+                <div class="col-md-12 mt-3 d-flex ">
+                    <div class=" col-md-4  font-weight-bold">
+                        <div class="border text-white bg-primary py-2 text-center">Locally Rooted</div>
+                        <div class="bg-secondary font-weight-600 p-2 ">
+                            These leaders are unrelenting, have a history of impact, and are committed to making concrete progress in their respective societies and communities
+                        </div>
+                    </div>
+                    <div class=" col-md-4  ">
+                        <div class="border text-white bg-primary font-weight-bold  text-center py-2 ">Diverse Perspective</div>
+                        <div class="bg-secondary font-weight-600  p-2">
+                            From social inclusiveness to builders reimagining boundaries, our cohorts are curated across all sectors and backgrounds. 
+                        </div>
+                    </div>
+                    <div class=" col-md-4   font-weight-bold">
+                        <div class="border text-white bg-primary text-center py-2 ">Dedicated to gender inclusiveness, health, poverty and injustice</div>
+                        <div class=" bg-secondary font-weight-600 p-2 ">
+                            Fellows are social innovators willing to undergo an intensive leadership journey—practicing the skills of moral imagination to tackle gender disparity poverty, health and injustice.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

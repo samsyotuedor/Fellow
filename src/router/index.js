@@ -21,6 +21,11 @@ const routes = [
     path: '/driverlist',
     name: 'DriverList',
     component: () => import(/* webpackChunkName: "about" */ '../views/landingpage/components/DriverList.vue')
+  },
+  {
+    path: '/applicationprocess',
+    name: 'Applicationprocess',
+    component: () => import(/* webpackChunkName: "about" */ '../views/applicationprocess/ApplicationProcess.vue')
   }
   
 ]
