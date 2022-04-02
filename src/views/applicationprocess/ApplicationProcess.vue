@@ -2,8 +2,8 @@
     <div class="container-fluid container-top">
         <div class="container-fluid">
             <div class="row ">
-                <div class="col-md-6 border ">
-                    <div class=""> <img src="../../assets/apply.jpg" alt=""> </div>
+                <div class="col-md-6 border myimage ">
+                    <!-- <div class=""> <img src="../../assets/apply.jpg" alt=""> </div> -->
                 </div>
                 <div class="col-md-6 border ">
                     <div class="col-md-12 font-weight-bold  "> Gender-Inclusive Practice and LGBTIQ </div>
@@ -27,6 +27,11 @@ export default {
 </script>
 
 <style scoped>
+.myimage{
+    background-image: url('../../assets/apply.jpg');
+    height: 100vh;
+}
+
 img{
     height: 80vh;
     width: 635px;
