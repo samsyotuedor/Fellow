@@ -14,14 +14,20 @@
             </div>
             <div class="row mt-3">
                 <div class="col-md-12 d-flex justify-content-center">
-                    <div class=" col-md-5 display-1 text-white font-weight-bolder">Become a Fellow</div>
+                    <div class=" col-md-6 display-1 text-white font-weight-bolder">Become a Fellow</div>
                 </div>
                 <div class="col-md-12 d-flex justify-content-center my-3">
-                    <div class="col-md-5 text-white font-weight-bold">Join a committed cohort of leaders intent who intend to build a gender-inclusive society, balanced and sustainable world</div>
+                    <div class="col-md-6 text-white font-weight-bold">Join a committed cohort of leaders intent who intend to build a gender-inclusive society, balanced and sustainable world</div>
                 </div>
-                <div class="col-md-12 d-flex justify-content-center">
-                    <div class="col-md-5 text-white ">
-                        <Dropdown v-model="selectFellow" class="w-100 bg-primary  font-weight-bold" :options="fellowList"  optionLabel="name" placeholder="Become a Fellow"/>
+                <div class="col-md-12 d-flex flex-wrap justify-content-center">
+                    <div class="col-md-6 text-white ">
+                        <Dropdown v-model="selectFellow" class="w-100 bg-primary  text-white font-weight-bold" :options="fellowList"  optionLabel="name" placeholder="Become a Fellow"/>
+                    </div>
+                </div>
+                <div class=" d-flex flex-wrap justify-content-center col-md-12  text-white " v-if="selectFellow.name == 'Become a Fellow' ">
+                    <div class="d-flex flex-wrap col-md-5 rounded  p-3  my-3  bg-white ">
+                        <div class="text-dark col-md-8 font-weight-bold  ">Gender-Inclusive Practice and LGBTIQ</div>
+                        <div class="font-weight-bold col-md-4  "> <router-link to="/applicationprocess" class="text-danger" > Application Open </router-link>  </div>
                     </div>
                 </div>
             </div>
@@ -75,7 +81,7 @@ export default {
         const selectFellow = ref('')
         const fellowList = ref(
             [
-                {name: "Become a fellow"},
+                {name: "Become a Fellow"},
                 {name: "Leadership"},
                 {name: "Fellowship"}
             ]
